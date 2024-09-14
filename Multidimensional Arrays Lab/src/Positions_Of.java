@@ -11,7 +11,6 @@ public class Positions_Of {
                 .toArray();
 
         int matrixRows = dimensions[0];
-        int matrixCols = dimensions[1];
 
         int [] [] matrix = new int[matrixRows][];
         for (int i = 0; i < matrixRows; i++) {

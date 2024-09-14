@@ -25,7 +25,6 @@ public class Compare_Matrices {
                 .toArray();
 
         int firstMatrixRows = dimensions[0];
-        int firstMatrixCols = dimensions[1];
 
         int [] [] firstMatrix = new int[firstMatrixRows][];
         for (int i = 0; i < firstMatrixRows; i++) {
@@ -41,7 +40,6 @@ public class Compare_Matrices {
                 .toArray();
 
         int secondMatrixRows = dimensions[0];
-        int secondMatrixCols = dimensions[1];
 
         int [] [] secondMatrix = new int[secondMatrixRows][];
         for (int i = 0; i < secondMatrixRows; i++) {
