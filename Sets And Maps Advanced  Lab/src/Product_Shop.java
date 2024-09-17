@@ -26,7 +26,6 @@ public class Product_Shop {
         for(Map.Entry<String, LinkedHashMap<String, Double>> entry: values.entrySet()){
             String shop = entry.getKey();
             LinkedHashMap <String, Double> products = entry.getValue();
-
             System.out.printf("%s->\n", shop);
 
 
@@ -37,6 +36,7 @@ public class Product_Shop {
                 System.out.printf("Product: %s, Price: %.1f\n", product,price);
             }
         }
+
 
     }
 }
