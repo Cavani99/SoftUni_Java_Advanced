@@ -16,8 +16,6 @@ public class Main {
 
             engine = new Engine(info[0], Integer.parseInt(info[1]));
 
-           ;
-
             if(info.length == 3){
                 if(info[2].matches("\\d+"))
                     engine.setDisplacement((info[2]));
